@@ -44,6 +44,18 @@ public class Magpie3
 		{
 			response = "Why so negative?";
 		}
+                else if (findKeyword(statement, "baby") >= 0)
+		{
+			response = "babies are fragile creatures";
+		}
+                else if (findKeyword(statement, "school") >= 0)
+		{
+			response = "Stay in school kids";
+		}
+                else if (findKeyword(statement, "feel") >= 0)
+		{
+			response = "feelings are for nerds";
+		}
 		else if (findKeyword(statement, "mother") >= 0
 				|| findKeyword(statement, "father") >= 0
 				|| findKeyword(statement, "sister") >= 0
